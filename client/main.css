@@ -1,0 +1,343 @@
+/* CSS declarations go here */
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+
+}
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.circle{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    display: block;
+    background-color: coral;
+}
+
+/* 图标库样式 */
+@font-face {
+    font-family: 'iconfont';  /* project id 250770 */
+    src: url('//at.alicdn.com/t/font_l5sgstoxtp6cg14i.eot');
+    src: url('//at.alicdn.com/t/font_l5sgstoxtp6cg14i.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_l5sgstoxtp6cg14i.woff') format('woff'),
+    url('//at.alicdn.com/t/font_l5sgstoxtp6cg14i.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_l5sgstoxtp6cg14i.svg#iconfont') format('svg');
+}
+.iconfont{
+
+    font-family:"iconfont" !important;
+    font-size:1.6em;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.iconfont a span{
+    margin-left: 7%;
+    font-size: 0.9em;
+}
+.iconfont a{
+    text-decoration: none;
+    color: #858585;
+}
+
+.iconfont a:hover{
+   color: #07ec87;
+}
+
+/* 导航条样式 */
+#nav ul {
+    margin-top: 5%;
+    list-style: none;
+}
+#nav ul li {
+    margin-top: 10%;
+}
+/* main 布局样式 */
+.main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+.left{
+    width: 20%;
+    height: 100%;
+    background-color: rgba(1, 7, 28, 0.99);
+    position: fixed;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* 头像样式 */
+.header-image{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin-left: 25%;
+    margin-top:15%;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#headder span{
+    display: block;
+    font-size: 1.4em;
+     color: #858585;
+    margin-left: 42%;
+    margin-top:3%;
+}
+.headder span a{
+    text-decoration: none;
+    color: #858585;
+}
+.right{
+    float: right;
+    width:80%;
+    height: 100%;
+
+
+}
+.yield{
+    width: 100%;
+    height: 100%;
+    margin-top: 1%;
+
+
+}
+
+/*
+**
+index 页面样式
+**
+*/
+.index{
+
+    margin-left: 1%;
+}
+.time{
+    color: #23aaff;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotateX(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.index span{
+    font-size: 24px;
+    width: 70px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 22px;
+    border: 1px solid rgba(49, 49, 49, 0.33);
+    border-radius: 50%;
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 156, 94, 0.94);
+    position: absolute;
+    right: 1px;
+    top: 0;
+
+}
+.index h3{
+    color: rgba(6, 205, 105, 0.99);
+}
+.index .posts a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgba(10, 204, 102, 0.99);
+}
+.index .posts p{
+    color: rgba(153, 161, 156, 0.99);
+}
+button{
+    right: 0px;
+    width: 90px;
+    border-radius: 5%;
+    color: #f3f8ff;
+    background-color: rgba(5, 194, 97, 0.78);
+    height: 35px;
+    border: 1px solid rgba(63, 0, 38, 0.06);
+}
+button:hover{
+    background-color: #0bc15a;
+}
+
+/*
+**
+表签页样式
+**
+*/
+.tags{
+    width: 100%;
+    margin-top: -20px ;
+    height: 663px;
+    background-size:100% 100%;
+    background-image: url("/images/bg4.jpg");
+}
+.taglist{
+    display: flex;
+}
+.tagsTitle h3{
+    padding-top: 1%;
+    color: #e17b48;
+    margin-left: 1%;
+}
+.taglist .tag{
+    margin: 0 auto;
+
+}
+.taglist .tag a{
+    font-size: 1.2em;
+    color: rgba(122, 122, 122, 0.82);
+    text-decoration: none;
+}
+.tagContent{
+    margin-left: 2%;
+    margin-top: 2%;
+
+}
+.tagContent h3{
+    color: #060303;
+}
+.tagContent a{
+    color: #04cc8e;
+    text-decoration: none;
+}
+.tagContent p {
+    color: #a3a3a3;
+}
+
+/*
+**
+文章页面样式
+**
+*/
+.postItem{
+    margin-left: 2%;
+    margin-top: 2%;
+    color: rgba(86, 86, 86, 0.89);
+}
+.postItem h3{
+    color: rgba(33, 33, 33, 0.91);
+}
+.postItem p{
+    color: #747474;
+}
+
+/*
+**
+notebook页面样式
+**
+*/
+.notebook{
+    margin-left: 1%;
+}
+.notbookHead span{
+    font-size: 24px;
+    width: 70px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 22px;
+    border: 1px solid rgba(49, 49, 49, 0.33);
+    border-radius: 50%;
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #0affa4;
+    position: absolute;
+    right: 1px;
+    top: 0;
+
+}
+.notebook h3{
+    color: #0ae36f;
+}
+
+
+.notes a{
+    color: #dc9159;
+    text-decoration: none;
+}
+.notes span{
+    color: #c5c5c5;
+}
+.noteId{
+    margin-left: 1%;
+    font-size: 12px;
+}
+.noteId h3{
+    color: #060606;
+}
+.noteId span{
+    color: #0cff91;
+    margin-top: -3em;
+    margin-right: 2em;
+    float: right;
+}
+pre{
+    color: #e17f37;
+    background-color: #222222;
+}
+blockquote p{
+    color: #5e5e5e;
+    font-size: 1.2em;
+}
+
+/**
+about页面样式
+**
+*/
+
+.about{
+    width: 100%;
+    margin-top: -20px ;
+    height: 663px;
+    color: #565656;
+    background-size:100% 100%;
+    background-image: url("/images/bg2.jpg");
+}
+hr{
+    background-color: #0ae36f;
+}
+.about h3{
+    padding-left: 4px;
+    padding-top: 7px;
+}
+.timeline{
+    width: 100%;
+    margin-top: -20px ;
+    height: 663px;
+    background-size:100% 100%;
+    background-image: url("/images/3bg.jpg");
+}
+
+
+.contact{
+    width: 100%;
+    margin-top: -20px ;
+    height: 663px;
+    background-size:100% 100%;
+    background: white;
+}
+.contactImg img{
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    margin-top: 10%;
+    margin-left: 13%;
+}

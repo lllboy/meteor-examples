@@ -1,0 +1,68 @@
+
+<template name="nav">
+    <div id="main" class="main">
+        <div class="left">
+            <div id="headder" >
+                <img class="header-image" src="/images/wuxing.jpg">
+                <span>
+                    <a href="/login">无心</a>
+                </span>
+            </div>
+            <div id="nav" >
+                <ul>
+                    <li class="iconfont" >
+                        <a href="/">
+                            &#xe64f;
+                            <span>主页</span>
+                        </a>
+                    </li>
+                    <li class="iconfont">
+                        <a href="/notebook  ">
+                            &#xe611;
+                            <span>笔记</span>
+                        </a>
+                    </li>
+                    <li class="iconfont">
+                        <a href="/tags">
+                            &#xe610;
+                            <span>标签</span>
+                        </a>
+                    </li>
+                    <li class="iconfont" >
+                        <a href="/about">
+                            &#xe603;
+                            <span>关于</span>
+                        </a>
+                    </li>
+                    <li class="iconfont">
+                        <a href="/timeline">
+                            &#xe654;
+                            <span>时间轴</span>
+                        </a>
+                    </li>
+                    <li class="iconfont">
+                        <a href="/contact">
+                            &#xe642;
+                            <span>二维码</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right" id="right">
+            <div class="yield">
+                {{> yield}}
+            </div>
+
+        </div>
+    </div>
+</template>
+
+
+
+
+
+
+
+
+

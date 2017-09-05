@@ -1,0 +1,30 @@
+<template name="article">
+    <div class="article">
+        <form  method="get" class="form" >
+            <div class="title">
+                <label>标题</label>
+                <div>
+                    <input type="text" id="title" placeholder="标题..." name="title">
+                </div>
+
+            </div>
+            <div class="tag">
+                <label>标签</label>
+                <div>
+                    <input type="text" id="tag" placeholder="标签..." name="tag">
+                </div>
+
+            </div>
+            <div class="description">
+                <label>描述</label>
+                <input type="text" placeholder="描述..." id="description">
+            </div>
+            <div class="content">
+
+                <label>内容</label>
+                <textarea id="content" rows="5" cols="10"></textarea>
+            </div>
+            <input type="submit" id="submit" class="btn btn-success" value="发表">
+        </form>
+    </div>
+</template>

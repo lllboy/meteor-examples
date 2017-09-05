@@ -1,0 +1,13 @@
+<template name="adminstrate">
+    <div>
+        {{#each posts}}
+            <div>
+                <h3 id="{{_id}}">{{title}}</h3>
+                <p>{{description}}</p>
+                <p>{{time.minute}}</p>
+            </div>
+            <button id="delete" class="btn btn-danger">删除</button>
+            <hr>
+        {{/each}}
+    </div>
+</template>

@@ -1,0 +1,46 @@
+
+<template name="admin">
+    <div id="admin" class="admin">
+        <div class="admin_header" id="admin_header">
+            <div class="add" id="add">
+                <ul>
+                    <li><a href="/note" class="iconfont1">笔记&#xe65f;</a></li>
+                    <li><a href="/article" class="iconfont1">文章&#xe65f;</a></li>
+                </ul>
+            </div>
+            <div class="ed" id="ed">
+                <ul>
+                    <li><a href="/adminstrate" class="iconfont1">删除&#xe64a;</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="admin_menu">
+            <div class="admin_list">
+                <div class="iconfont1" id="adminList"><a href="/admin">&#xe657;</a></div>
+                <ul id="ul">
+                    <li class="iconfont1">
+                        <a href="#" id="manage"> &#xe6f6;
+                            <span>管理</span></a>
+
+                    </li>
+                    <li>
+
+                        <a href="#" id="publish" class="iconfont">&#xe63e;
+                            <span>发布</span></a>
+                    </li>
+                    <li>
+                        <a href="#" class="iconfont">&#xe67b;
+                            <span>统计</span></a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="admin_content" id="admin_content">
+            <div class="admin_yield">
+                {{> yield}}
+            </div>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,16 @@
+<template name="notebook">
+    <div class="notebook" id="notebook">
+        <div class="notbookHead">
+            <h3>我的笔记</h3>
+            <span>{{notecount}}</span>
+        </div>
+        <hr>
+        {{#each notes}}
+            <div class="notes">
+                <a href="/notebook/{{_id}}"><h4>{{title}}</h4></a>
+                <span>{{time.minute}}</span>
+            </div>
+            <hr>
+        {{/each}}
+    </div>
+</template>

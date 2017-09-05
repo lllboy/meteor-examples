@@ -1,0 +1,17 @@
+<template name="tags">
+    <div class="tags">
+        <div class="tagsTitle">
+            <h3>标签</h3>
+        </div>
+        <div class="taglist">
+
+            {{#each tags}}
+
+                <div class="tag">
+                    <a href="/tags/{{tag}}">{{tag}}{{tagcount}}</a>
+                </div>
+            {{/each}}
+        </div>
+
+    </div>
+</template>

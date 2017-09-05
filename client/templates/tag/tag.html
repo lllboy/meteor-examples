@@ -1,0 +1,14 @@
+<template name="tag">
+    {{#each this}}
+        <div class="tagContent">
+            <h3>{{title}}</h3>
+            <p>{{description}}</p>
+            <p>{{time.day}}</p>
+            <a href="/article/{{_id}}">
+                <span>阅读全文>></span>
+            </a>
+            <hr>
+
+        </div>
+    {{/each}}
+</template>

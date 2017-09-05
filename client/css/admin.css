@@ -1,0 +1,166 @@
+
+@font-face {
+    font-family: 'iconfont1';  /* project id 260018 */
+    src: url('//at.alicdn.com/t/font_nllyh18szw5vzpvi.eot');
+    src: url('//at.alicdn.com/t/font_nllyh18szw5vzpvi.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_nllyh18szw5vzpvi.woff') format('woff'),
+    url('//at.alicdn.com/t/font_nllyh18szw5vzpvi.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_nllyh18szw5vzpvi.svg#iconfont') format('svg');
+}
+.iconfont1{
+    font-family:"iconfont1" !important;
+    font-size:1.6em;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.admin{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+.admin_header{
+    width: 100%;
+    height: 4em;
+    color: rgba(221, 221, 221, 0.87);
+    background-color: #292B2E;
+    position: fixed;
+    z-index: 3;
+}
+.admin_menu{
+
+    z-index: 10;
+    width: 8%;
+    height: 100%;
+    background-color: #292B2E;
+    margin-top: 4em;
+
+    position: fixed;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.admin_content{
+    float: right;
+    width:80%;
+    height: 100%;
+
+}
+.admin_yield{
+    width: 100%;
+    height: 100%;
+    margin-left: -12%;
+    margin-top: 5%;
+
+}
+.admin_list div{
+    font-size: 36px;
+    margin-top: -1em;
+    margin-left: 1em;
+    color: green;
+}
+.admin_list div a{
+    text-decoration: none;
+
+}
+.admin_list ul{
+    font-size: 1em;
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    list-style: none;
+    margin-top: 20%;
+}
+.admin_list ul li{
+    text-align: center;
+    width: 100%;
+    display: block;
+    height: 100%;
+    padding-top: 30%;
+}
+.admin_list ul li a{
+    color: rgba(165, 169, 177, 0.94);
+    text-decoration: none;
+}
+.admin_list ul li a span{
+    font-size: 0.8em;
+}
+.admin_list ul li a:hover{
+    color: rgb(179, 179, 185);
+}
+.login{
+    width: 100%;
+    margin-top: -20px ;
+    height: 673px;
+    background-size:100% 100%;
+    background-image: url("/images/4bg.jpg");
+
+}
+.login_form{
+    width: 40%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 1%;
+    margin: 0 auto;
+    position: relative;
+    top: 30%;
+    background: rgba(10, 15, 3, 0.07);
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.14), -1px -2px 4px rgba(0, 0, 0, 0.14);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.14), -1px -2px 4px rgba(0, 0, 0, 0.14);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.14), -1px -2px 4px rgba(0, 0, 0, 0.14);
+
+
+
+}
+.login_form h3{
+    text-align: center;
+    color: #484848;
+}
+.login_form form div{
+    margin-left: 25%;
+    color: #5f5f5f;
+}
+.Btn{
+    width: 200px;
+    height: 3%;
+}
+
+
+/* article css */
+
+.add{
+    margin-left: 7em;
+    margin-top: 0.5em;
+    display: none;
+}
+.ed{
+    margin-left: 7em;
+    margin-top: 0.5em;
+    display: none;
+
+}
+.add ul,.ed ul{
+    list-style: none;
+    display: block;
+}
+.add ul li,.ed ul li{
+    float: left;
+    margin-top: 0.5em;
+    margin-left: 1em;
+
+}
+.add ul li a,.ed ul li a{
+    font-size: 1.4em;
+    text-decoration: none;
+    color: green;
+}
+/*adminindex*/
+.canvas{
+    margin-top: 3em;
+    width: 800px;
+    height: 400px;
+    background-color: rgba(58, 164, 155, 0.69);
+}

@@ -1,0 +1,23 @@
+<template name="index">
+    <div class="index" id="index">
+        <div class="indexHead">
+            <h3>我的文章</h3>
+            <span>{{postcount}}</span>
+        </div>
+
+        <hr>
+        {{#each posts}}
+            <div class="posts">
+                <h4>{{title}}</h4>
+                <p>{{description}}</p>
+                <p>{{time.minute}}</p>
+                <a href="/article/{{_id}}">
+                    <button>阅读全文>></button>
+                </a>
+
+            </div>
+            <hr>
+        {{/each}}
+    </div>
+
+</template>
